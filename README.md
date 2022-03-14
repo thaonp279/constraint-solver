@@ -1,8 +1,8 @@
-# Binary Constraint Solver with Forward Checking and MAC Propagation
-Provided a binary constraint problem, the solver searches for the solution using 2-way branching and propagates using Forward Checking or MAC.
+# Constraint Solver for Sudoku and N-Queens Problems
+Provided a binary constraint problem such as Sudoku and N-queens, the solver searches for the solution using 2-way branching and propagates using Forward Checking or MAC.
 
 
-## Binary Constraint Problem Format
+## Problem Input Format
 The binary constraint problem is specified by the number of variables, the domain of each of the variable and the constraints. 
 - The domain is specified by the format: lower bound, upper bound
 - The constraint is specified by the format: c(i, j) for the variables number i, j and followed by the possible tuples of value of i, j
